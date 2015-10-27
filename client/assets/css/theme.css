@@ -4,7 +4,7 @@
   background-color: #c7e9b4;
 }
 .theme-1:hover {
-  color: #7fcdbb;
+  color: #41b6c4;
 }
 
 
@@ -12,12 +12,15 @@
   background-color: #7fcdbb;
 }
 .theme-2:hover {
-  color: #41b6c4;
+  color: #1d91c0;
 }
 
 
 .theme-3 {
   background-color: #41b6c4;
+}
+.theme-3:hover {
+  color: #225ea8;
 }
 
 

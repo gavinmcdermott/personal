@@ -35,7 +35,7 @@
 .lastGroup,
 .lastUnit,
 .unit {
-  overflow: hidden;
+  /*overflow: hidden;*/
   -moz-background-clip: padding-box !important;
   -webkit-background-clip: padding-box !important;
   background-clip: padding-box !important;
