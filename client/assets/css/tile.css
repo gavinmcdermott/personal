@@ -1,0 +1,101 @@
+.tile {
+  min-height: 90px;
+  background-color: #E3E3EA;
+  min-width: 100%;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 30px;
+  color: #FFF;
+
+  -webkit-transition: all 225ms ease-in-out;
+  -moz-transition: all 225ms ease-in-out;
+  -o-transition: all 225ms ease-in-out;
+  transition: all 225ms ease-in-out;
+}
+
+
+/*****************************************/
+/* PUZZLE PIECES */
+/*****************************************/
+.tile--puzzle {
+  
+}
+
+.tile--puzzle .fa-puzzle-piece {
+  font-size: 66px;
+}
+
+.puzzle-piece-1 {
+  position: absolute;
+  bottom: -1%;
+  left: 5%;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform:    rotate(-40deg);
+  -ms-transform:     rotate(-40deg);
+  -o-transform:      rotate(-40deg);
+  transform:         rotate(-40deg);
+}
+
+.puzzle-piece-2 {
+  position: absolute;
+  top: -29%;
+  left: 28%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform:    rotate(80deg);
+  -ms-transform:     rotate(80deg);
+  -o-transform:      rotate(80deg);
+  transform:         rotate(80deg);
+}
+
+.puzzle-piece-3 {
+  position: absolute;
+  top: 27%;
+  left: 62%;
+  -webkit-transform: rotate(111deg);
+  -moz-transform:    rotate(111deg);
+  -ms-transform:     rotate(111deg);
+  -o-transform:      rotate(111deg);
+  transform:         rotate(111deg);
+}
+
+.puzzle-piece-4 {
+  position: absolute;
+  top: -20%;
+  right: -2%;
+  -webkit-transform: rotate(-38deg);
+  -moz-transform:    rotate(-38deg);
+  -ms-transform:     rotate(-38deg);
+  -o-transform:      rotate(-38deg);
+  transform:         rotate(-38deg);
+}
+
+
+
+/*****************************************/
+/* PAPERCLIP */
+/*****************************************/
+.tile--paperclip .fa-paperclip {
+  font-size: 100px;
+}
+
+.paperclip-1 {
+  position: absolute;
+  right: -4px;
+  top: -18px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform:    rotate(-90deg);
+  -ms-transform:     rotate(-90deg);
+  -o-transform:      rotate(-90deg);
+  transform:         rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+

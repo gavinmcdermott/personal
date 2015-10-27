@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 28px;
+  letter-spacing: 1.12px;
+  padding-bottom: 12px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.f--light {
+  color: #9B9BA7;
+}
+
+
+
