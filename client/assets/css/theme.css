@@ -1,44 +1,112 @@
-/* http://colorbrewer2.org/# */
+/*
 
-.theme-1 {
-  background-color: #c7e9b4;
+http://colorbrewer2.org
+-------------------------
+#ffffd9
+#edf8b1
+#c7e9b4
+#7fcdbb
+#41b6c4
+#1d91c0
+#225ea8
+#253494
+#081d58
+
+*/
+
+/*****************************************/
+/* PAGE LEAD SECTION */
+/*****************************************/
+.page-lead [class*="theme-"] {
+  /*color: #FFF;*/
 }
-.theme-1:hover {
+
+.page-lead.theme-1 {
   color: #41b6c4;
 }
 
+.page-lead.theme-2 {
+  
+}
 
-.theme-2 {
+.page-lead.theme-3 {
+  
+}
+
+.page-lead.theme-4 {
+  
+}
+
+.page-lead.theme-5 {
+  
+}
+
+
+
+/*****************************************/
+/* TILE THEMES */
+/*****************************************/
+
+.tile[class*="theme-"] {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;  
+}
+
+.tile.theme-1 {
+  background-color: #c7e9b4;
+}
+.tile.theme-1:hover  {
+  color: #41b6c4;
+}
+
+.tile.theme-2 {
   background-color: #7fcdbb;
 }
-.theme-2:hover {
+.tile.theme-2:hover {
   color: #1d91c0;
 }
 
-
-.theme-3 {
+.tile.theme-3 {
   background-color: #41b6c4;
 }
-.theme-3:hover {
+.tile.theme-3:hover {
   color: #225ea8;
 }
 
-
-.theme-4 {
+.tile.theme-4 {
   background-color: #1d91c0;
 }
+.tile.theme-4:hover {
+  color: #253494;
+}
 
-
-.theme-5 {
+.tile.theme-5 {
   background-color: #225ea8;
 }
-
-
-.theme-6 {
-  background-color: #253494;
+.tile.theme-5:hover {
+  color: #081d58;
 }
 
 
-.theme-7 {
-  background-color: #081d58;
+
+/*****************************************/
+/* QUOTE THEMES */
+/*****************************************/
+blockquote.theme-1 {
+  border-left: 2px solid #41b6c4;
 }
+
+
+
+
+
+
+
+
+
+
+
+

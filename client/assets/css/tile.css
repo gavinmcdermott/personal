@@ -1,45 +1,45 @@
+
+/*****************************************/
+/* TILES */
+/*****************************************/
+.tile-wrap {
+  margin-bottom: 18px;
+}
+
 .tile {
-  min-height: 90px;
-  background-color: #E3E3EA;
+  min-height: 110px;
   min-width: 100%;
   border-radius: 2px;
   position: relative;
   /*overflow: hidden;*/
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
   color: #FFF;
-
-  -webkit-transition: all 350ms ease-in-out;
-  -moz-transition: all 350ms ease-in-out;
-  -o-transition: all 350ms ease-in-out;
-  transition: all 350ms ease-in-out;
 }
 
 .tile-title {
   position: absolute;
-  font-size: 36px;
   left: 2%;
-  font-weight: 400;
-  /*bottom: -2px;*/
   top: 50%;
   transform: translateY(-50%);
 }
 
 
+
 /*****************************************/
-/* PUZZLE PIECES */
+/* TILE - PUZZLE PIECE */
 /*****************************************/
 .tile--puzzle {
   
 }
 
 .tile--puzzle .fa-puzzle-piece {
-  font-size: 66px;
+  font-size: 88px;
 }
 
-.puzzle-piece-1 {
+.tile--puzzle .puzzle-piece-1 {
   position: absolute;
-  top: 27%;
+  top: 33%;
   right: 13%;
   -webkit-transform: rotate(111deg);
   -moz-transform:    rotate(111deg);
@@ -48,7 +48,7 @@
   transform:         rotate(111deg);
 }
 
-.puzzle-piece-2 {
+.tile--puzzle .puzzle-piece-2 {
   position: absolute;
   top: -20%;
   right: -2%;
@@ -62,16 +62,16 @@
 
 
 /*****************************************/
-/* PAPERCLIP */
+/* TILE - PAPERCLIP */
 /*****************************************/
 .tile--paperclip .fa-paperclip {
-  font-size: 100px;
+  font-size: 110px;
 }
 
-.paperclip-1 {
+.tile--paperclip .paperclip-1 {
   position: absolute;
-  right: -8px;
-  top: -22px;
+  right: -10px;
+  top: -23px;
   -webkit-transform: rotate(-90deg);
   -moz-transform:    rotate(-90deg);
   -ms-transform:     rotate(-90deg);

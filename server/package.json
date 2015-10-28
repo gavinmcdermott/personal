@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Gavin McDermott's Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gavinmcdermott/personal.git"
+  },
+  "author": "gavinmcdermott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavinmcdermott/personal/issues"
+  },
+  "homepage": "https://github.com/gavinmcdermott/personal#readme",
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "^4.13.3",
+    "livereload": "^0.4.0",
+    "morgan": "~1.5.3",
+    "serve-favicon": "~2.2.1"
+  }
+}
