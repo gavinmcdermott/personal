@@ -24,17 +24,29 @@ p {
   font-weight: 300;
   max-width: 625px;
   line-height: 1.44em;
+  padding-bottom: 18px;
 }
 
 a {
-  color: #7fcdbb;
+  color: #1d91c0;
   text-decoration: none;
-  border-bottom: 1px dashed #7fcdbb;
+  border-bottom: 1px dashed #1d91c0;
   padding-bottom: 2px;
 }
 a:hover {
-  color: #41b6c4;
-  border-bottom: 1px dashed #41b6c4;
+  color: #081d58;
+  border-bottom: 1px dashed #081d58;
+}
+
+a.unstyled {
+  color: #9B9BA7;
+  text-decoration: none;
+  border: none;
+}
+a.unstyled:hover {
+  color: #9B9BA7;
+  text-decoration: none;
+  border: none;
 }
 
 blockquote {
@@ -44,9 +56,25 @@ blockquote {
   margin-bottom: 30px;
 }
 
+
 .f--light {
   color: #9B9BA7;
 }
+
+.f--small {
+  font-size: 13px;
+}
+
+.f--super {
+  font-size: 11px;
+  vertical-align: text-bottom;
+}
+
+.f--icon {
+  vertical-align: baseline;
+}
+
+
 
 
 
