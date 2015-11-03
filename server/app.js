@@ -2,8 +2,10 @@ var express         = require('express');
 var livereload      = require('livereload');
 var path            = require('path');
 var favicon         = require('serve-favicon');
+var app             = express();
 
-var app = express();
+// 
+var port = process.env.PORT || 3000;
 
 // Top level paths
 var staticFolder = path.resolve(__dirname, '../client');
@@ -32,14 +34,11 @@ app.get('/why', function (req, res) {
   res.sendFile(statementPath);
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(port, function () {
   var host = this.address().address;
   var port = this.address().port;
   console.log('Example app listening at http://%s:%s', host, port);
 });
-
-
-
 
 // TODO:
 // gulp, livereload, build process
