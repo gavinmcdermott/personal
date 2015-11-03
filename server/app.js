@@ -33,12 +33,13 @@ app.get('/why', function (req, res) {
 });
 
 
+var port = process.env.PORT || 3000;
 
-// app.listen(3000, function () {
-//   var host = this.address().address;
-//   var port = this.address().port;
-//   console.log('Example app listening at http://%s:%s', host, port);
-// });
+app.listen(port, function () {
+  var host = this.address().address;
+  var port = this.address().port;
+  console.log('Example app listening at http://%s:%s', host, port);
+});
 
 
 
