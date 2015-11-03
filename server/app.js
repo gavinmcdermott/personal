@@ -32,10 +32,7 @@ app.get('/why', function (req, res) {
   res.sendFile(statementPath);
 });
 
-
-var port = process.env.PORT || 3000;
-
-app.listen(port, function () {
+app.listen(process.env.PORT || 3000, function () {
   var host = this.address().address;
   var port = this.address().port;
   console.log('Example app listening at http://%s:%s', host, port);
