@@ -15,15 +15,21 @@ h3 {
   padding-bottom: 12px;
 }
 
-h5 {
+h4 {
   font-size: 18px;
   font-weight: 300;
+  padding-bottom: 8px;
 }
+
+/*h5 {
+  font-size: 18px;
+  font-weight: 300;
+}*/
 
 p {
   font-weight: 300;
   max-width: 625px;
-  line-height: 1.44em;
+  line-height: 1.33em;
   padding-bottom: 18px;
 }
 
@@ -34,40 +40,45 @@ a {
   padding-bottom: 2px;
 }
 a:hover {
-  color: #081d58;
-  border-bottom: 1px dashed #081d58;
+  opacity: .75;
 }
 
 a.unstyled {
-  color: #9B9BA7;
+  color: #B0B0BB;
   text-decoration: none;
   border: none;
 }
 a.unstyled:hover {
-  color: #9B9BA7;
-  text-decoration: none;
-  border: none;
+  opacity: .75;
 }
 
 blockquote {
   font-style: italic;
-  line-height: 1.66em;
+  line-height: 1.44em;
   padding-left: 12px;
   margin-bottom: 30px;
+  max-width: 625px;
+  border-left: 3px solid;
 }
+
 
 
 .f--light {
-  color: #9B9BA7;
+  color: #B0B0BB;
+}
+
+.f--dim {
+  opacity: .7;
 }
 
 .f--small {
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 1.5em;
 }
 
 .f--super {
   font-size: 11px;
-  vertical-align: text-bottom;
+  vertical-align: text-top;
 }
 
 .f--icon {

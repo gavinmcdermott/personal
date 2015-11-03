@@ -1,3 +1,7 @@
+.underlined {
+  border-bottom: 1px solid #B0B0BB;
+  margin-bottom: 30px;
+}
 
 .relative {
   position: relative;
@@ -6,6 +10,15 @@
 .pad--max {
   padding-top: 80px;
   padding-bottom: 60px;
+}
+
+.pad-top--max {
+  padding-top: 80px;
+}
+
+
+.below--12 {
+  margin-bottom: 12px;
 }
 
 .below--18 {
