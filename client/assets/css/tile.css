@@ -3,19 +3,34 @@
 /* TILES */
 /*****************************************/
 .tile-wrap {
-  margin-bottom: 18px;
+  /*margin-bottom: 12px;*/  
 }
 
 .tile {
-  min-height: 110px;
-  min-width: 100%;
+  min-height: 160px;
+  width: 100%;
   border-radius: 2px;
   position: relative;
   /*overflow: hidden;*/
   cursor: pointer;
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 18px;
+  margin-top: 12px;
   color: #FFF;
+}
+
+/*.tile:hover {
+  overflow: visible;
+}*/
+
+.tile a {
+  color: inherit;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: red;
+}
+
+.tile:hover a {
+  opacity: 1;
 }
 
 .tile-title {
@@ -38,18 +53,18 @@
 }
 
 .tile--puzzle .fa-puzzle-piece {
-  font-size: 104px;
+  font-size: 72px;
 }
 
 .tile--puzzle .puzzle-piece-1 {
   position: absolute;
-  top: 28%;
-  right: 13%;
-  -webkit-transform: rotate(111deg);
-  -moz-transform:    rotate(111deg);
-  -ms-transform:     rotate(111deg);
-  -o-transform:      rotate(111deg);
-  transform:         rotate(111deg);
+  bottom: -10px;
+  left: 0px;
+  -webkit-transform: rotate(-18deg);
+  -moz-transform:    rotate(-18deg);
+  -ms-transform:     rotate(-18deg);
+  -o-transform:      rotate(-18deg);
+  transform:         rotate(-18deg);
 }
 
 .tile--puzzle .puzzle-piece-2 {
@@ -63,24 +78,35 @@
   transform:         rotate(-38deg);
 }
 
+.tile--puzzle .puzzle-piece-3 {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  -webkit-transform: rotate(-71deg);
+  -moz-transform:    rotate(-71deg);
+  -ms-transform:     rotate(-71deg);
+  -o-transform:      rotate(-71deg);
+  transform:         rotate(-71deg);
+}
+
 
 
 /*****************************************/
 /* TILE - PAPERCLIP */
 /*****************************************/
 .tile--paperclip .fa-paperclip {
-  font-size: 110px;
+  font-size: 94px;
 }
 
 .tile--paperclip .paperclip-1 {
   position: absolute;
-  right: -8px;
-  top: -18px;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform:    rotate(-90deg);
-  -ms-transform:     rotate(-90deg);
-  -o-transform:      rotate(-90deg);
-  transform:         rotate(-90deg);
+  right: -13px;
+  top: -14px;
+  -webkit-transform: rotate(-109deg);
+  -moz-transform:    rotate(-109deg);
+  -ms-transform:     rotate(-109deg);
+  -o-transform:      rotate(-109deg);
+  transform:         rotate(-109deg);
 }
 
 

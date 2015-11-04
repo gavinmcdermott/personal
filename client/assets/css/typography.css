@@ -6,7 +6,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 h3 {
@@ -16,8 +16,8 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   padding-bottom: 8px;
 }
 
@@ -72,6 +72,11 @@ blockquote {
 
 .f--dim {
   opacity: .7;
+}
+
+.f--subtext {
+  font-size: 14px;
+  /*font-weight: 400;*/
 }
 
 .f--small {

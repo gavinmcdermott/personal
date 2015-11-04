@@ -3,6 +3,10 @@
   margin-bottom: 30px;
 }
 
+.fill-empty {
+  min-height: 1px;
+}
+
 .relative {
   position: relative;
 }
