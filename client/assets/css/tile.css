@@ -20,9 +20,12 @@
 
 .tile-title {
   position: absolute;
-  left: 2%;
+  /*left: 2%;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
+  bottom: -10px;
+  left: 2%;
+  /*font-family: 'permanent_markerregular';*/
 }
 
 
@@ -35,12 +38,12 @@
 }
 
 .tile--puzzle .fa-puzzle-piece {
-  font-size: 88px;
+  font-size: 104px;
 }
 
 .tile--puzzle .puzzle-piece-1 {
   position: absolute;
-  top: 33%;
+  top: 28%;
   right: 13%;
   -webkit-transform: rotate(111deg);
   -moz-transform:    rotate(111deg);

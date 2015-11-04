@@ -56,11 +56,14 @@ blockquote {
   font-style: italic;
   line-height: 1.44em;
   padding-left: 12px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   max-width: 625px;
   border-left: 3px solid;
+  border-color: #C4C4C8;
 }
-
 
 
 .f--light {

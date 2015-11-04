@@ -16,10 +16,7 @@ var careerFolder = path.resolve(__dirname, '../client/app/career');
 var cvPath = path.resolve(__dirname, careerFolder, 'cv.html');
 var statementPath = path.resolve(__dirname, careerFolder, 'statement.html');
 
-
-
-
-
+// 
 app.use(express.static(staticFolder));
 
 app.get('/', function (req, res) {
