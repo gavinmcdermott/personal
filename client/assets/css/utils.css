@@ -1,6 +1,6 @@
 .underlined {
-  border-bottom: 1px solid #B0B0BB;
-  margin-bottom: 30px;
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: 20px;
 }
 
 .fill-empty {
@@ -9,6 +9,10 @@
 
 .relative {
   position: relative;
+}
+
+.float--right {
+  float: right;
 }
 
 .pad--max {

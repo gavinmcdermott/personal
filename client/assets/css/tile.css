@@ -15,12 +15,22 @@
   cursor: pointer;
   margin-bottom: 18px;
   margin-top: 12px;
-  color: #FFF;
+  color: #252525;
 }
 
-/*.tile:hover {
-  overflow: visible;
-}*/
+
+
+@media screen and (max-width: 960px) {
+  .tile {
+    min-height: 100px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .tile {
+    min-height: 100px;
+  }
+}
+
 
 .tile a {
   color: inherit;
@@ -58,8 +68,8 @@
 
 .tile--puzzle .puzzle-piece-1 {
   position: absolute;
-  bottom: -10px;
-  left: 0px;
+  bottom: -10%;
+  left: -6px;
   -webkit-transform: rotate(-18deg);
   -moz-transform:    rotate(-18deg);
   -ms-transform:     rotate(-18deg);
@@ -69,8 +79,8 @@
 
 .tile--puzzle .puzzle-piece-2 {
   position: absolute;
-  top: -20px;
-  left: 118px;
+  top: -22px;
+  left: 65%;
   -webkit-transform: rotate(-38deg);
   -moz-transform:    rotate(-38deg);
   -ms-transform:     rotate(-38deg);
@@ -80,8 +90,8 @@
 
 .tile--puzzle .puzzle-piece-3 {
   position: absolute;
-  top: 20px;
-  left: 35px;
+  bottom: 26%;
+  left: 19%;
   -webkit-transform: rotate(-71deg);
   -moz-transform:    rotate(-71deg);
   -ms-transform:     rotate(-71deg);
