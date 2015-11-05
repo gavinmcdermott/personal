@@ -15,7 +15,7 @@
   cursor: pointer;
   margin-bottom: 18px;
   margin-top: 12px;
-  color: #252525;
+  color: #FFF;
 }
 
 
@@ -102,24 +102,22 @@
 
 
 /*****************************************/
-/* TILE - PAPERCLIP */
+/* TILE - CV */
 /*****************************************/
-.tile--paperclip .fa-paperclip {
+.tile--cv .sign {
   font-size: 94px;
 }
 
-.tile--paperclip .paperclip-1 {
+.tile--cv .sign {
   position: absolute;
-  right: -13px;
-  top: -14px;
-  -webkit-transform: rotate(-109deg);
-  -moz-transform:    rotate(-109deg);
-  -ms-transform:     rotate(-109deg);
-  -o-transform:      rotate(-109deg);
-  transform:         rotate(-109deg);
+  right: 50px;
+  bottom: -12px;
+  -webkit-transform: rotate(9deg);
+  -moz-transform:    rotate(9deg);
+  -ms-transform:     rotate(9deg);
+  -o-transform:      rotate(9deg);
+  transform:         rotate(9deg);
 }
-
-
 
 
 
