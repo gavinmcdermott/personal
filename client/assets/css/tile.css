@@ -7,7 +7,7 @@
 }
 
 .tile {
-  min-height: 160px;
+  min-height: 150px;
   width: 100%;
   border-radius: 2px;
   position: relative;
@@ -70,7 +70,7 @@
 .tile--puzzle .puzzle-piece-2 {
   position: absolute;
   top: -20px;
-  right: -15px;
+  left: 118px;
   -webkit-transform: rotate(-38deg);
   -moz-transform:    rotate(-38deg);
   -ms-transform:     rotate(-38deg);
