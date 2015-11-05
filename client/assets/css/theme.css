@@ -68,10 +68,14 @@ http://colorbrewer2.org
   transition: all 350ms ease-in-out;  
 }
 
+.tile[class*="theme-"]:hover {
+  box-shadow: 0px 0px 13px #cbcbcb;
+}
+
 .tile.theme-1 {
   background-color: #c7e9b4;
 }
-.tile.theme-1:hover  {
+.tile.theme-1:hover {
   color: #41b6c4;
 }
 
