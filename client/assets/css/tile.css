@@ -55,13 +55,13 @@
 }
 
 .tile {
-  min-height: 150px;
+  min-height: 130px;
   width: 100%;
   border-radius: 2px;
   position: relative;
   /*overflow: hidden;*/
   cursor: pointer;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   margin-top: 12px;
   color: #FFF;
 }
@@ -107,13 +107,8 @@
 
 .intro-1 {
   position: absolute;
-  top: 30px;
-  left: 16px;
-  -webkit-transform: rotate(-4deg);
-  -moz-transform: rotate(-4deg);
-  -ms-transform: rotate(-4deg);
-  -o-transform: rotate(-4deg);
-  transform: rotate(-4deg);
+  bottom: -15px;
+  left: -11px;
 }
 
 @media screen and (max-width: 960px) {
