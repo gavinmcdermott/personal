@@ -22,28 +22,38 @@ http://colorbrewer2.org
 }
 
 .theme-1 {
-  color: #41b6c4;
-  border-color: #41b6c4;
+  /*color: #41b6c4;*/
+  color: #c7e9b4;
+  /*border-color: #41b6c4;*/
+  border-color: #c7e9b4;
 }
 
 .theme-2 {
-  color: #1d91c0;
-  border-color: #1d91c0;
+  /*color: #1d91c0;*/
+  color: #7fcdbb;
+  /*border-color: #1d91c0;*/
+  border-color: #7fcdbb;
 }
 
 .theme-3 {
-  color: #225ea8;
-  border-color: #225ea8;  
+  /*color: #225ea8;*/
+  color: #41b6c4;
+  /*border-color: #225ea8;  */
+  border-color: #41b6c4;  
 }
 
 .theme-4 {
-  color: #225ea8;
-  border-color: #225ea8;
+  /*color: #225ea8;*/
+  color: #1d91c0;
+  /*border-color: #225ea8;*/
+  border-color: #1d91c0;
 }
 
 .theme-5 {
-  color: #253494;
+  /*color: #253494;*/
+  color: #225ea8;
   border-color: #253494;
+  /*border-color: #225ea8;*/
 }
 
 .theme-6 {
