@@ -117,6 +117,10 @@
   .size1of3.nochange {
     width: 33.33333333%
   }
+  .hidden-med,
+  .large-only {
+    display: none !important;
+  }
 }
 @media screen and (max-width: 640px) {
   .unit,
@@ -130,5 +134,9 @@
   .size2of8,
   .size6of8 {
     width: 100%
+  }
+  .hidden-small,
+  .large-only {
+    display: none !important;
   }
 }

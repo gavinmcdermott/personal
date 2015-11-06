@@ -40,6 +40,10 @@
   padding-right: 6px;
 }
 
+.pad--l6 {
+  padding-left: 6px;
+}
+
 .below--12 {
   margin-bottom: 12px;
 }
