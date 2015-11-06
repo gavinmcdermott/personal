@@ -86,6 +86,10 @@ blockquote {
   line-height: 1.5em;
 }
 
+.f--xlarge {
+  font-size: 60px;
+}
+
 .f--super {
   font-size: 11px;
   vertical-align: text-top;
@@ -96,6 +100,17 @@ blockquote {
 }
 
 
+
+@media screen and (max-width: 960px) {
+  .f--xlarge {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .f--xlarge {
+    font-size: 48px;
+  }
+}
 
 
 

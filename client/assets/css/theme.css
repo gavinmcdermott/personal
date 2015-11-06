@@ -17,9 +17,6 @@ http://colorbrewer2.org
 
 */
 
-/*****************************************/
-/* PAGE LEAD SECTION */
-/*****************************************/
 [class*="theme-"] {
   /*color: #FFF;*/
 }
@@ -53,61 +50,5 @@ http://colorbrewer2.org
   color: #081d58;
   border-color: #081d58;
 }
-
-
-
-/*****************************************/
-/* TILE THEMES */
-/*****************************************/
-
-.tile[class*="theme-"] {
-  -webkit-transition: all 350ms ease-in-out;
-  -moz-transition: all 350ms ease-in-out;
-  -ms-transition: all 350ms ease-in-out;
-  -o-transition: all 350ms ease-in-out;
-  transition: all 350ms ease-in-out;  
-}
-
-.tile[class*="theme-"]:hover {
-  box-shadow: 0px 2px 11px #bbb;
-}
-
-.tile.theme-1 {
-  background-color: #c7e9b4;
-}
-.tile.theme-1:hover {
-  color: #41b6c4;
-}
-
-.tile.theme-2 {
-  background-color: #7fcdbb;
-}
-.tile.theme-2:hover {
-  color: #1d91c0;
-}
-
-.tile.theme-3 {
-  background-color: #41b6c4;
-}
-.tile.theme-3:hover {
-  color: #225ea8;
-}
-
-.tile.theme-4 {
-  background-color: #1d91c0;
-}
-.tile.theme-4:hover {
-  color: #253494;
-}
-
-.tile.theme-5 {
-  background-color: #225ea8;
-}
-.tile.theme-5:hover {
-  color: #081d58;
-}
-
-
-
 
 
